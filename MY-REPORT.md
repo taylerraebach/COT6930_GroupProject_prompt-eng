@@ -8,7 +8,7 @@ An AI-powered Discord study companion that assists students with General Chemist
 This is a response to the Assignment part of the COURSE.
 -->
 
-* Authors: Tayler Bachmann (http://www.YOURPAGE.xxx), Alejandra Coronel-Zegarra (http://www.YOURPAGE.xxx)
+* Authors: Tayler Bachmann (http://www.YOURPAGE.xxx), Alejandra Coronel-Zegarra (https://github.com/alejacoronel)
 * Academic Supervisor: [Dr. Fernando Koch](http://www.fernandokoch.me)
 
   
