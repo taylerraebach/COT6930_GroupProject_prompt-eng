@@ -163,8 +163,8 @@ if __name__ == "__main__":
     MESSAGE = "1 + 1"
     PROMPT = MESSAGE 
     payload = create_payload(
-                         target="open-webui",   
-                         model="llama3.2:latest", 
+                         target="ollama",   
+                         model="llama3.2", 
                          prompt=PROMPT, 
                          temperature=1.0, 
                          num_ctx=5555555, 
