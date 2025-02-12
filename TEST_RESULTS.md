@@ -110,12 +110,14 @@ Now, let's analyze the amounts of H2 and O2 you provided:
 
 * 4H2 (required) vs. 2H2 (available)
 	+ Shortage by 50% (you need 2 times more than
+
 Time taken: 34.065s
 
 ### Few Shot
 We start by identifying the number of moles of H2 needed to completely consume all 2 moles of O2, which is 2 * 1 = 2 moles. Since we have more than that amount available (we only need half), they will suffice. 
 
 So, 2/4 = 0.5
+
 Time taken: 23.618s
 
 ### Chain of Thought
