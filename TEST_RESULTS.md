@@ -143,7 +143,7 @@ To balance it further, we'll add H2O to both sides.
 
 Total Time Taken: 10.174s
 
-### Generate Knowledge (Incomplete)
+### Generative Knowledge (Incomplete)
 Generated Knowledge:
 To balance the given reaction, we need to consider the law of conservation of mass. The law states that matter cannot be created or destroyed in a chemical reaction.
 
@@ -212,12 +212,12 @@ O₂
 
 Time taken: 2.695s
 
-### Prompt Template
+### Prompt Template (Incorrect)
 The limiting reactant is H2, with 5 moles available.
 
 Time taken: 10.491s
 
-### Prompt Chaining
+### Prompt Chaining (Incomplete)
 Step 1 Output:
 Here are the simplified steps to solve this problem:
 
@@ -245,7 +245,7 @@ H2 + O2 -> 2H2O
 
 Total Time Taken: 60.378s
 
-### Generative Knowledge
+### Generative Knowledge (Incomplete)
 Generated Knowledge:
 To determine the limiting reactant, we need to know the balanced chemical equation for the reaction.
 
