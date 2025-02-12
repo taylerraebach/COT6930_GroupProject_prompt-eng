@@ -209,8 +209,71 @@ Time taken: 23.618s
 
 ### Chain of Thought (Correct)
 O₂
+
 Time taken: 2.695s
 
+### Prompt Template
+The limiting reactant is H2, with 5 moles available.
+
+Time taken: 10.491s
+
 ### Prompt Chaining
+Step 1 Output:
+Here are the simplified steps to solve this problem:
+
+**Step 1: Write down the balanced chemical equation**
+
+The given reaction is:
+2H2 + O2 → 2H2O
+
+This equation tells us that for every mole of H2, we need 1 mole of O2.
+
+**Step 2: Determine the limiting reactant**
+
+We are given 2 moles of H2. Since each mole of H2 requires 1 mole of O2, we also need
+
+{'model': 'llama3.2', 'prompt': 'Using the following breakdown, compute the final answer:\n\nHere are the simplified steps to solve this problem:\n\n**Step 1: Write down the balanced chemical equation**\n\nThe given reaction is:\n2H2 + O2 → 2H2O\n\nThis equation tells us that for every mole of H2, we need 1 mole of O2.\n\n**Step 2: Determine the limiting reactant**\n\nWe are given 2 moles of H2. Since each mole of H2 requires 1 mole of O2, we also need', 'stream': False, 'options': {'temperature': 1.0, 'num_ctx': 100, 'num_predict': 100}}
+Final Output:
+I can solve this problem in a step-by-step manner.
+
+
+## Step 1: Define the balanced chemical equation for the reaction
+The balanced chemical equation for the combustion of hydrogen is:
+H2 + O2 -> 2H2O
+
+...
+
+## Step 3
+
+Total Time Taken: 60.378s
 
 ### Generative Knowledge
+Generated Knowledge:
+To determine the limiting reactant, we need to know the balanced chemical equation for the reaction.
+
+The balanced equation is already given: 2H2 + O2 → 2H2O
+
+From the equation, we can see that:
+
+* 1 mole of H2 reacts with 0.5 moles of O2
+* 1 mole of O2 reacts with 2 moles of H2
+
+Now, let's look at the amounts of reactants given in the problem:
+
+* Moles of H2: 5 moles
+* Moles of O2: 2 moles
+
+To determine which reaction is limiting (i.e., will be consumed first), we need to calculate the number of moles of
+
+{'model': 'llama3.2', 'prompt': "Using the following knowledge, answer the question:\n\nKnowledge:\nTo determine the limiting reactant, we need to know the balanced chemical equation for the reaction.\n\nThe balanced equation is already given: 2H2 + O2 → 2H2O\n\nFrom the equation, we can see that:\n\n* 1 mole of H2 reacts with 0.5 moles of O2\n* 1 mole of O2 reacts with 2 moles of H2\n\nNow, let's look at the amounts of reactants given in the problem:\n\n* Moles of H2: 5 moles\n* Moles of O2: 2 moles\n\nTo determine which reaction is limiting (i.e., will be consumed first), we need to calculate the number of moles of\n\nQuestion: What is the limiting reactant in 2H2 + O2 → 2H2O if we have 5 moles of H2 and 2 moles of O2?", 'stream': False, 'options': {'temperature': 1.0, 'num_ctx': 200, 'num_predict': 150}}
+Final Answer:
+To determine which reaction is limiting, let's first analyze the stoichiometry of the reaction:
+
+2H2 + O2 → 2H2O
+
+The mole ratio between H2 and O2 in the balanced equation is 2:1.
+...
+
+Since we only have 2 moles of O2 available, which is less than the required amount to react with all 5 moles of H2, we need to
+
+Total Time Taken: 104.349s
