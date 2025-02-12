@@ -104,14 +104,17 @@ Time taken: 9.453s
 
 ### Few Shot
 C₃H₈ + 5O₂ → 3CO₂ + 4H₂O
+
 Time taken: 3.311s
 
 ### Chain of Thought
 C₃H₈ + 5O₂ → 3CO₂ + 4H₂O.
+
 Time taken: 4.748s
 
 ### Prompt Template
 2C₃H₈ + 5O₂ → 6CO₂ + 4H₂O
+
 Time taken: 2.823s
 
 ### Prompt Chaining
