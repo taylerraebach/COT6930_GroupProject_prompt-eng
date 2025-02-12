@@ -74,5 +74,6 @@ This study follows a systematic approach involving iterative testing of differen
 By systematically testing and refining prompt engineering techniques, this research aims to develop a highly effective AI chatbot tailored to enhancing student learning in General Chemistry. The findings will contribute valuable insights into optimizing AI-driven educational tools for personalized and interactive study experiences.
 
 # Results
+We tested three different prompts, each relating to solving general chemistry problems, and out of all the prompt techniques we tried, generative prompting was the best. It not only gave background knowledge to the students, which contributed to the goal of helping them study, but showed students how to solve the problem. Also, it was the only technique that consistently gave correct answers, the other techniques did not always give correct answers.
 
 # Further research
