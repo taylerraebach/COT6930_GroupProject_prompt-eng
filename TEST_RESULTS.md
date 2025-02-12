@@ -1,7 +1,7 @@
 # Results for different prompt engineering techniques:
 
 ## PROMPT 1: Find the molar mass of C₂H₆O
-### Zero Shot
+### Zero Shot (Incomplete)
 To find the molar mass of C₂H₆O, we need to sum up the atomic masses of each element in the compound.
 
 C (carbon) has an atomic mass of 12.01 g/mol.
@@ -14,15 +14,15 @@ Assuming the given compound is CO2, we have:
 Time taken: 5.241s
 
 
-### Few Shot
+### Few Shot (Incorrect)
 86.07 g/mol
 Time taken: 2.98s
 
-### Chain of Thought
+### Chain of Thought (Incorrect)
 30.07
 Time taken: 0.746s
 
-### Prompt Template
+### Prompt Template (Incorrect)
 C₂H₆O has a molar mass of:
 
 48 (2 x Carbon) + 12 (6 x Hydrogen) + 16 (1 x Oxygen)
@@ -30,7 +30,7 @@ C₂H₆O has a molar mass of:
 = 76 g/mol
 Time taken: 3.015s
 
-### Prompt Chaining
+### Prompt Chaining (Incomplete)
 Step 1 Output:
 Here are the simplified steps to find the molar mass of C₂H₆O:
 
@@ -58,7 +58,7 @@ Atomic weight of H =
 
 Total Time Taken: 12.129999999999999s
 
-### Generative Knowledge
+### Generative Knowledge (Correct)
 Generated Knowledge:
 To solve this problem, we need to know a bit about chemistry and molecular structure.
 
@@ -88,7 +88,7 @@ Total Time Taken: 19.493s
 
 ## PROMPT 2: Balance the reaction: C₃H₈ + O₂ → CO₂ + H₂O
 
-### Zero Shot
+### Zero Shot (Incomplete and Incorrect)
 To balance the reaction, we need to add coefficients in front of the reactants and products until the number of atoms of each element is equal on both sides.
 
 Initial reaction:
@@ -102,22 +102,22 @@ Counting the atoms:
 * O: 2 (react
 Time taken: 9.453s
 
-### Few Shot
+### Few Shot (Correct)
 C₃H₈ + 5O₂ → 3CO₂ + 4H₂O
 
 Time taken: 3.311s
 
-### Chain of Thought
+### Chain of Thought (Correct)
 C₃H₈ + 5O₂ → 3CO₂ + 4H₂O.
 
 Time taken: 4.748s
 
-### Prompt Template
+### Prompt Template (Incorrect)
 2C₃H₈ + 5O₂ → 6CO₂ + 4H₂O
 
 Time taken: 2.823s
 
-### Prompt Chaining
+### Prompt Chaining (Incomplete and Incorrect)
 Step 1 Output:
 To balance the reaction, let's break it down into smaller steps. Here's how we can do it:
 
@@ -143,7 +143,7 @@ To balance it further, we'll add H2O to both sides.
 
 Total Time Taken: 10.174s
 
-### Generate Knowledge
+### Generate Knowledge (Incomplete)
 Generated Knowledge:
 To balance the given reaction, we need to consider the law of conservation of mass. The law states that matter cannot be created or destroyed in a chemical reaction.
 
@@ -188,7 +188,7 @@ Total Time Taken: 15.267s
 
 ## PROMPT 3: What is the limiting reactant in 2H₂ + O₂ → 2H₂O if we have 5 moles of H₂ and 2 moles of O₂?
 
-### Zero Shot
+### Zero Shot (Incomplete and Incorrect)
 To determine the limiting reactant, we need to write out the balanced equation for the reaction:
 
 4H2 + O2 → 2H2O (Note: the correct stoichiometry is 4H2 for every 1 O2)
@@ -200,15 +200,17 @@ Now, let's analyze the amounts of H2 and O2 you provided:
 
 Time taken: 34.065s
 
-### Few Shot
+### Few Shot (Incomplete and Incorrect)
 We start by identifying the number of moles of H2 needed to completely consume all 2 moles of O2, which is 2 * 1 = 2 moles. Since we have more than that amount available (we only need half), they will suffice. 
 
 So, 2/4 = 0.5
 
 Time taken: 23.618s
 
-### Chain of Thought
-TESTT
+### Chain of Thought (Correct)
+O₂
+Time taken: 2.695s
+
 ### Prompt Chaining
 
 ### Generative Knowledge
