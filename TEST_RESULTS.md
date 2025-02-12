@@ -89,14 +89,98 @@ Total Time Taken: 19.493s
 ## PROMPT 2: Balance the reaction: C₃H₈ + O₂ → CO₂ + H₂O
 
 ### Zero Shot
+To balance the reaction, we need to add coefficients in front of the reactants and products until the number of atoms of each element is equal on both sides.
+
+Initial reaction:
+
+C₃H₈ + O₂ → CO₂ + H₂O
+
+Counting the atoms:
+
+* C: 3 (reactant) = 1 (product)
+* H: 8 (reactant) = 2 (products) x 2 = 4
+* O: 2 (react
+Time taken: 9.453s
 
 ### Few Shot
+C₃H₈ + 5O₂ → 3CO₂ + 4H₂O
+Time taken: 3.311s
 
 ### Chain of Thought
+C₃H₈ + 5O₂ → 3CO₂ + 4H₂O.
+Time taken: 4.748s
+
+### Prompt Template
+2C₃H₈ + 5O₂ → 6CO₂ + 4H₂O
+Time taken: 2.823s
 
 ### Prompt Chaining
+Step 1 Output:
+To balance the reaction, let's break it down into smaller steps. Here's how we can do it:
 
-### Generative Knowledge
+1. Write down the unbalanced equation:
+   C₃H₈ + O₂ → CO₂ + H₂O
+
+2. Balance the carbon atoms: There are 3 carbon atoms on the left side of the equation and only 1 on the right side.
+   We need to multiply CO₂ by 3 to balance the carbon atoms.
+   
+   The new equation is:
+
+Final Output:
+I can help with that. Here's the revised version:
+
+
+   C + O2 → CO2
+
+
+To balance it further, we'll add H2O to both sides.
+
+
+   C + O2 + H2O → 3HCO3
+
+Total Time Taken: 10.174s
+
+### Generate Knowledge
+Generated Knowledge:
+To balance the given reaction, we need to consider the law of conservation of mass. The law states that matter cannot be created or destroyed in a chemical reaction.
+
+The unbalanced equation is:
+C₃H₈ + O₂ → CO₂ + H₂O
+
+Let's look at the reactants and products:
+
+Reactants:
+
+1. C₃H₈ (propane) - 3 carbon atoms, 8 hydrogen atoms
+2. O₂ (oxygen gas) - 2 oxygen atoms
+
+Products:
+
+1. CO₂ (carbon dioxide) - 1 carbon atom, 2 oxygen atoms
+2. H₂O (water) - 2 hydrogen atoms, 1 oxygen atom
+
+Now, let's compare the
+
+Final Answer:
+To balance the reaction, we need to make sure that the number of atoms of each element is equal on both the reactant and product sides.
+
+Let's start by comparing the oxygen atoms:
+
+* Reactants: 2 oxygen atoms (O₂)
+* Products: 3 oxygen atoms (CO₂ + H₂O)
+
+To balance the oxygen atoms, we need to add more O₂ molecules to the reaction. Let's try adding 1/2 molecule of O₂ to both sides of the reaction.
+
+Now, let's compare the carbon atoms:
+
+* Reactants: None
+* Products: No carbon atoms (just oxygen and hydrogen)
+
+We don't need to add any additional reactant molecules to balance the carbon atoms.
+
+Finally, let's
+
+Total Time Taken: 15.267s
 
 
 ## PROMPT 3: What is the limiting reactant in 2H₂ + O₂ → 2H₂O if we have 5 moles of H₂ and 2 moles of O₂?
