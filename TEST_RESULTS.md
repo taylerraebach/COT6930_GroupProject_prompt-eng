@@ -58,7 +58,7 @@ Atomic weight of H =
 
 Total Time Taken: 12.129999999999999s
 
-### General Knowledge
+### Generative Knowledge
 Generated Knowledge:
 To solve this problem, we need to know a bit about chemistry and molecular structure.
 
@@ -95,3 +95,31 @@ Total Time Taken: 19.493s
 ### Chain of Thought
 
 ### Prompt Chaining
+
+### Generative Knowledge
+
+
+## PROMPT 3: What is the limiting reactant in 2H₂ + O₂ → 2H₂O if we have 5 moles of H₂ and 2 moles of O₂?
+
+### Zero Shot
+To determine the limiting reactant, we need to write out the balanced equation for the reaction:
+
+4H2 + O2 → 2H2O (Note: the correct stoichiometry is 4H2 for every 1 O2)
+
+Now, let's analyze the amounts of H2 and O2 you provided:
+
+* 4H2 (required) vs. 2H2 (available)
+	+ Shortage by 50% (you need 2 times more than
+Time taken: 34.065s
+
+### Few Shot
+We start by identifying the number of moles of H2 needed to completely consume all 2 moles of O2, which is 2 * 1 = 2 moles. Since we have more than that amount available (we only need half), they will suffice. 
+
+So, 2/4 = 0.5
+Time taken: 23.618s
+
+### Chain of Thought
+
+### Prompt Chaining
+
+### Generative Knowledge
